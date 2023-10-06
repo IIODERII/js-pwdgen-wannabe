@@ -81,20 +81,23 @@ body{
     padding: 110px;
     font-size: 3em;
     font-weight: bold;
+    cursor: default;
 }
 
 #pw-container{
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 60%;
     transform: translate(-50% , 0);
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.2em;
     width: 300px;
     color: var(--color-dark-blue);
     text-align: center;
+    cursor: default;
+    word-wrap: break-word;
 }
 
 .circle-3:hover ~ .circle-2.move{
-    top: 35%;
+    top: 38%;
 }
